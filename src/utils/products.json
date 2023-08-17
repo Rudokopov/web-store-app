@@ -21,13 +21,15 @@
   },
   {
     "id": 2,
-    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "image": "https://imageup.ru/img6/4482604/cardproductempty.jpg",
     "isPromotion": true,
     "discount": 30,
     "brand": "Бренд",
     "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
     "price": "5 990 ₽",
-    "oldPrice": "5 990 ₽"
+    "oldPrice": "5 990 ₽",
+
+    "isEmpty": true
   },
   {
     "id": 3,

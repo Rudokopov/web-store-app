@@ -20,7 +20,8 @@
 }
 
 .list {
-  margin: 0 0 0 32px;
+  margin: 0;
+  // margin: 0 0 0 32px;
   padding: 0;
   list-style: none;
 }
@@ -28,7 +29,9 @@
 .listItem {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
   margin: 0 0 7px 0;
+  padding: 7px 0 7px 32px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -40,4 +43,9 @@
   font-size: 12px;
   line-height: 14px;
   color: var.$opacity-color;
+}
+
+.selected {
+  background-color: #e2efff;
+  border-radius: 5px;
 }

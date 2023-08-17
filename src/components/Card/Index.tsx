@@ -10,11 +10,20 @@ type CardProps = {
   description: string;
   price: string;
   oldPrice?: string;
+  isEmpty?: boolean;
 };
 
 const Card: React.FC<CardProps> = (props) => {
-  const { image, isPromotion, discount, brand, description, price, oldPrice } =
-    props;
+  const {
+    image,
+    isPromotion,
+    discount,
+    brand,
+    description,
+    price,
+    oldPrice,
+    isEmpty,
+  } = props;
 
   return (
     <div className={styles.container}>
@@ -35,13 +44,21 @@ const Card: React.FC<CardProps> = (props) => {
       <div>
         <h2 className={styles.title}>{brand}</h2>
         <p className={styles.description}>{description}</p>
-        <div className={styles.priceContainer}>
-          <h3 className={styles.price}>{price}</h3>
-          <p className={styles.oldPrice}>{oldPrice}</p>
-        </div>
-        <button className={styles.button} type="button">
-          Купить
-        </button>
+        {!isEmpty ? (
+          <>
+            <div className={styles.priceContainer}>
+              <h3 className={styles.price}>{price}</h3>
+              <p className={styles.oldPrice}>{oldPrice}</p>
+            </div>
+            <button className={styles.button} type="button">
+              Купить
+            </button>
+          </>
+        ) : (
+          <button className={styles.feedBackButton}>
+            Сообщить о поступлении
+          </button>
+        )}
       </div>
     </div>
   );

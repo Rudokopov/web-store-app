@@ -12,7 +12,6 @@
 
 .cardImage {
   width: 100%;
-  //   max-width: 333px;
   height: 200px;
   object-fit: cover;
 }
@@ -101,4 +100,34 @@
   font-size: 14px;
   line-height: 14px;
   color: #7397f5;
+
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.4;
+  }
+}
+
+.feedBackButton {
+  all: unset;
+  cursor: pointer;
+  margin-top: 30px;
+  color: var.$opacity-color;
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #7397f5;
+    color: #fff;
+    border: 1px solid #7397f5;
+  }
 }
