@@ -1,0 +1,104 @@
+@use "../../styles/variables/Variables.module.scss" as var;
+
+.container {
+  font-family: "PT Sans", sans-serif;
+  color: var.$main-color;
+}
+
+.topContainer {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.cardImage {
+  width: 100%;
+  //   max-width: 333px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.promotionBanner {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 8px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.promotionFireIcon {
+  margin-left: 4px;
+}
+
+.discountBanner {
+  position: absolute;
+  padding: 6px 10px;
+  bottom: 12px;
+  left: 12px;
+  background-color: #7397f5;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.title {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var.$opacity-color;
+}
+
+.description {
+  margin: 0 0 16px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.priceContainer {
+  margin: 0 0 16px 0;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin: 0 8px 0 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+.oldPrice {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var.$opacity-color;
+  text-decoration: line-through;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  margin: 0;
+  padding: 12px 16px;
+  border: 1px solid #7397f5;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #7397f5;
+}

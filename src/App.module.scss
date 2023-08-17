@@ -1,3 +1,13 @@
 .container {
-  margin-left: 100px;
+  margin: 0 100px;
+
+  @media (max-width: 1375px) {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  @media (max-width: 1050px) {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

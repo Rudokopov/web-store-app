@@ -13,9 +13,9 @@
 
 .button {
   all: unset;
-  width: 104px;
-  height: 48px;
+
   margin: 0 24px 0 0;
+  padding: 15.5px 24px;
   text-align: center;
   border: 1px solid #73aff4;
   border-radius: 8px;
@@ -26,7 +26,7 @@
 
 .searchInput {
   all: unset;
-  width: 1015px;
+  width: 100%;
   margin: 0 24px 0 0;
   padding: 12px 0 12px 48px;
   border: 1px solid #73aff4;
@@ -47,9 +47,14 @@
 }
 
 .listItem {
-  margin: 0 20px 0 0;
+  margin: 0;
   padding: 0;
+  white-space: nowrap;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.94px;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 }

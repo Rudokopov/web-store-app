@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 1,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 2,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 3,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 4,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 5,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 6,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 7,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 8,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 9,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 10,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  },
+  {
+    "id": 11,
+    "image": "https://imageup.ru/img56/4482444/cardimage.png",
+    "isPromotion": true,
+    "discount": 30,
+    "brand": "Бренд",
+    "description": "Полное название товара в несколько строк для вида с обрывом в конце...",
+    "price": "5 990 ₽",
+    "oldPrice": "5 990 ₽"
+  }
+]
